@@ -43,7 +43,7 @@ from binary.
 
 ## Options
 
-|        Variable         |                   Description                    |  Default  |
-|-------------------------|--------------------------------------------------|-----------|
-| vim_usd_usdview_command | The executable that will be used to load usdview | "usdview" |
+|         Variable          |                   Description                    |  Default  |
+|---------------------------|--------------------------------------------------|-----------|
+| g:vim_usd_usdview_command | The executable that will be used to load usdview | "usdview" |
 

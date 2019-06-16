@@ -4,11 +4,6 @@ endif
 
 let g:vim_usd_usdview_command = get(g:, 'vim_usd_usdview_command', 'usdview')
 
-if !executable(g:vim_usd_usdview_command)
-    echoerr 'Command "' . g:vim_usd_usdview_command . '" is not executable. vim-usd-usdview cannot be loaded.'
-    finish
-endif
-
 
 " Reference: https://gist.github.com/breja/8de867327301054acd334e77c9bba7b3
 function! GetVisualSelection()

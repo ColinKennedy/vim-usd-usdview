@@ -43,6 +43,12 @@ from binary.
 
 ## Options
 
+You may set a different executable than `usdview`, if you want, like this:
+
+```vim
+let g:vim_usd_usdview_command = "some_custom_usdview_executable"
+```
+
 |         Variable          |                   Description                    |  Default  |
 |---------------------------|--------------------------------------------------|-----------|
 | g:vim_usd_usdview_command | The executable that will be used to load usdview | "usdview" |

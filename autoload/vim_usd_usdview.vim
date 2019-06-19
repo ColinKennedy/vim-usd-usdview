@@ -10,7 +10,7 @@ function! s:open_in_usdview(path, background)
         let l:command .= ' &'
     endif
 
-    call system(l:command)
+    echo system(l:command)
 endfunction
 
 

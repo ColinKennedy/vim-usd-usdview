@@ -41,6 +41,7 @@ xmap <leader>vw <Plug>OpenPathUnderCursorInUSDView
 in your PATH environment variable. `usdview` is used to convert to and
 from binary.
 
+
 ## Options
 
 You may set a different executable than `usdview`, if you want, like this:
@@ -53,3 +54,16 @@ let g:vim_usd_usdview_command = "some_custom_usdview_executable"
 |---------------------------|--------------------------------------------------|-----------|
 | g:vim_usd_usdview_command | The executable that will be used to load usdview | "usdview" |
 
+
+## Having Trouble Loading?
+If you're loading usdview using background, switch to foreground
+commands like this:
+
+```vim
+nmap <leader>vv <Plug>OpenCurrentFile
+nmap <leader>vw <Plug>OpenPathUnderCursorInUSDView
+xmap <leader>vw <Plug>OpenPathUnderCursorInUSDView
+```
+
+Running usdview in the background will hide any errors that pop up.
+Running in foreground will show if there are any issues.
